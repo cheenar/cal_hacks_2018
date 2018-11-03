@@ -24,4 +24,4 @@ fn eval_polynomial(poly: Vec<i32>, x: i32) -> i32 {
         sum += poly[degree] * x.pow(degree as u32);
     }
     return sum;
-}                                            
+}                                                

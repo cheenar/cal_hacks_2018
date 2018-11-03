@@ -4,4 +4,4 @@ version = "0.1.0"
 authors = ["rileylyman <rileylyman@berkeley.edu>"]
 
 [dependencies]
-rand = "0.3.14"
+num-bigint = "0.2"

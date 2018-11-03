@@ -1,6 +1,6 @@
 [package]
 name = "fft"
 version = "0.1.0"
-authors = ["rileylyman <rileylyman@berkeley.edu>"]
+authors = ["ValarDragon <dojha12@gmail.com>"]
 
 [dependencies]
