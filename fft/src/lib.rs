@@ -12,19 +12,19 @@ impl Gf32 {
     fn add(&self, a: Gf32) -> Gf32 {
         Gf32{
                 value: (self.value + a.value) % MODULUS_GF32
-            }
+        }
     }
 
     fn sub(&self, a: Gf32) -> Gf32 {
         Gf32{
                 value: (self.value - a.value) % MODULUS_GF32
-            }
+        }
     }
 
     fn mul(&self, a: Gf32) -> Gf32 {
         Gf32{
                 value: (((self.value as u64) * (a.value as u64)) % (MODULUS_GF32 as u64)) as u32
-            }
+        }
     }
 
     fn div(&self, a: Gf32) -> Gf32 {
