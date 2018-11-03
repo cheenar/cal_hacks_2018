@@ -24,9 +24,13 @@ impl FieldElement<Gf32> for Gf32 {
     }
 
     fn sub(&self, other: &Gf32) -> Gf32 {
+    }
+
+    fn sub(&self, other: &Gf32) -> Gf32 {
         Gf32{
                 value: (self.value - other.value) % MODULUS_GF32
             }
+        }
     }
 
     fn mul(&self, other: &Gf32) -> Gf32 {
