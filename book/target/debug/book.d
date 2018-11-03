@@ -1,1 +1,1 @@
-/home/riley/github/cal_hacks_2018/book/target/debug/book: /home/riley/github/cal_hacks_2018/book/src/main.rs
+/Users/cheenar/Programming/CalHacks/book/target/debug/book.dSYM: /Users/cheenar/Programming/CalHacks/book/src/main.rs
